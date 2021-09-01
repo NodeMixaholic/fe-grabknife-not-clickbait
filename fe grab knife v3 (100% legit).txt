@@ -1,7 +1,7 @@
 --Create buffer-overflow to insert ROBLOX server script 
 mario = Instance.new("Sound", workspace)
-mario.SoundId = "rbxassetid://4529919219"
-mario.Volume = 6
+mario.SoundId = "rbxassetid://533635495"
+mario.Volume = 10
 mario:Play()
 function bufferOverflow()
 RunService.RenderStepped:Connect(function(step)
